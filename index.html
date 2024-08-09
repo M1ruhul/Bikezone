@@ -20,13 +20,13 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 
-<body class="mx-auto w-8/12">
+<body class="mx-auto w-4/5">
     <header>
         <section> 
             <!-- header section nav bar -->
             <div>
                 <div class="flex justify-between p-8">
-                    <h1 class="font-bold items-center">Bike Dekho</h1>
+                    <h1 class="font-bold items-center m-auto ml-0">Bike Dekho</h1>
                     <ul class="flex justify-between items-center gap-3">
                         <ol>Home</ol>
                         <ol>Shop</ol>
@@ -37,17 +37,18 @@
                 </div>
             </div>
             <!-- header cover section  -->
-            <div class="bg-[#E76F511A] p-6 flex justify-between">
-                <div class="flex flex-col gap-4 px-8 py-8">
-                    <h1 class="font-bold text-4xl">Ride-on R15 V4 <br> with Smile</h1>
-                    <p>Amet minim mollit non deserunt ullamco <br>
-                        est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
+            <div class="bg-[#E76F511A] mt-5 p-5 flex justify-between">
+                <span><i class="fa-solid fa-chevron-left mt-44 "></i></span>
+                <div class="flex flex-col gap-4 mt-10 px-16 py-8">
+                    <h1 class="font-extrabold text-4xl">Ride-on R15 V4 <br> with Smile</h1>
+                    <p class="text-sm">Amet minim mollit non deserunt ullamco <br>est sit aliqua dolor do amet sint. Velit officia consequat <br> duis enim velit mollit.</p>
                     <h3 class="bg-[#E76F51] w-24 text-center p-3 rounded-lg text-white">Purchase</h3>
                 </div>
                 <div>
                     <!-- img -->
-                     <img src="./images/slider/bike2.png" alt="" srcset="">
+                     <img class="mt-10" src="./images/slider/bike2.png" alt="" srcset="">
                 </div>
+                <span><i class="fa-solid fa-chevron-right mt-44 text-orange-500"></i></span>
             </div>
         </section>
     </header>
@@ -55,11 +56,11 @@
         <!-- Fetured Bikes In This Year -->
         <section>
             <div>
-                <div class="flex flex-col text-center mt-20">
+                <div class="flex flex-col gap-2 text-center mt-20">
                     <h1 class="font-bold text-4xl">Fetured Bikes In This Year</h1>
-                    <h4 class="text-orange-500	">Best bike collection</h4>
+                    <h4 class="text-orange-500 border-x-8 border-orange-500">Best bike collection</h4>
                 </div>
-                <div class="flex gap-10 w-4/5 mt-10">
+                <div class="flex justify-between mt-10">
                     <img class="grayscale" src="./images/others/feature-bike.png" alt="" srcset="">
                     <img src="./images/others/feature-bike.png" alt="" srcset="">
                     <img class="grayscale" src="./images/others/feature-bike.png" alt="" srcset="">
@@ -154,7 +155,7 @@
         <!-- Frequently Asked Questions last of the main section -->
          <section>
             <h1 class="flex justify-center text-4xl mt-12">Frequently Asked <span class="text-orange-500 ml-2">Questions</span></h1>
-            <div class="flex gap-8 justify-between mt-12">
+            <div class="flex justify-between mt-12">
                 <div>
                     <img src="./images/others/faq.png" alt="">
                 </div>
@@ -172,20 +173,66 @@
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <h1>How can I tell if my helmet is old and I need a 
-                            new one?</h1>
+                    <div class="flex justify-between gap-3 border border-[#DEDEDE] p-2 mt-5">
+                        <div>
+                            <h1  class="text-lg font-bold">How can I tell if my helmet is old and I need a 
+                                new one?</h1>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-down mt-3"></i>
+                        </div>
                     </div>
-                    <div>
-                        <h1>My bike has been in storage is it safe to ride?</h1>
+                    <div class="flex justify-between gap-3 border border-[#DEDEDE] p-2 mt-5">
+                        <div>
+                            <h1 class="text-lg font-bold">My bike has been in storage is it safe to ride?</h1>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
                     </div>
-                    <div>
-                        <h1>What rules should I follow when riding my bike?</h1>
+                    <div class="flex justify-between gap-3 border border-[#DEDEDE] p-2 mt-5">
+                        <div>
+                            <h1 class="text-lg font-bold">What rules should I follow when riding my bike?</h1>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
                     </div>
+                    
                 </div>
             </div>
          </section>
     </main>
+<!-- footer section start here  -->
+    <footer>
+        <section>
+            <div class="flex justify-between bg-black mt-16">
+                <!-- footer left side -->
+                <div class="ml-24 mt-12 text-sm">
+                    <div class="text-white">
+                        <h1>Download <span>License</span></h1> 
+                    </div>
+                    <div>
+                        <ul class="flex justify-between gap-4 text-white">
+                            <ol>About</ol>
+                            <ol>Features</ol>
+                            <ol>Pricing</ol>
+                            <ol>Carrers</ol>
+                            <ol>Help</ol>
+                            <ol>Privacy policy</ol>
+                        </ul>
+                    </div>
+                    <span class="text-white text-xs">© 2020 bike. All rights reserved</span>
+                </div>
+                <!-- footer right side -->
+                <div class="p-8">
+                    <h1 class="text-white text-sm">Get In App</h1>
+                    <img class="h-8" src="./images/others/ios.png" alt="" srcset="">
+                    <img class="h-8" src="./images/others/android.png" alt="">
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 
 </html>
